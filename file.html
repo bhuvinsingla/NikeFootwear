@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        .navbar .login {
+            background-color: #d32f2f;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background: repeating-linear-gradient(90deg, #ffc1e3, #ffc1e3 50px, white 50px, white 100px);
+            height: 100vh;
+        }
+
+        .hero-content {
+            max-width: 500px;
+        }
+
+        .hero-content h1 {
+            font-size: 3em;
+            margin: 0 0 20px;
+        }
+
+        .hero-content p {
+            font-size: 1em;
+            margin: 0 0 20px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+
+        .buttons .shop-now {
+            background-color: #d32f2f;
+            color: white;
+        }
+
+        .buttons .category {
+            border: 2px solid black;
+            color: black;
+        }
+
+        .partners {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        .partners img {
+            width: 50px;
+            margin: 0 5px;
+        }
+
+        .hero-image img {
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike" width="50">
+            </div>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="login">Login</a>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>YOUR FEET DESERVE THE BEST</h1>
+            <p>Your feet deserve the best and we're here to help you with our shoes. Your feet deserve the best and we're here to help with our shoes.</p>
+            <div class="buttons">
+                <a href="#" class="shop-now">Shop Now</a>
+                <a href="#" class="category">Category</a>
+            </div>
+            <div class="partners">
+                Also Available On<br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Flipkart_logo.png" alt="Flipkart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5cc71d5c-df2b-4725-b283-6aeb57a4db8b/air-max-plus-mens-shoes-1qkTkD.png" alt="Nike Air Max">
+        </div>
+    </main>
+</body>
+</html>
